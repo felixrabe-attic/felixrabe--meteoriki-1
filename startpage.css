@@ -1,0 +1,20 @@
+#startpage h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#startpage #loginform {
+  border: 2px solid #999;
+  width: 400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#startpage label {
+  display: block;
+  margin: 0.5em;
+}
+
+#startpage input {
+  width: 100%;
+}

@@ -1,0 +1,35 @@
+#form {
+  background-color: #ccc;
+  border-radius: 0.3em;
+  margin: 0;
+  padding: 0 1em;
+  overflow: auto;
+}
+
+#form input,
+#form textarea {
+  border: none;
+  border-collapse: collapse;
+  border-radius: 2px;
+  outline: none;
+  width: 100%;
+  margin: 0;
+  padding: 2px;
+  font-family: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+}
+
+#form label {
+  display: block;
+  margin: 1em 0;
+}
+
+#form input {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#form textarea {
+  resize: none;
+}

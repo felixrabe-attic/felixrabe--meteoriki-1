@@ -1,0 +1,13 @@
+<template name="ui">
+  <div id="ui">
+    {{#each pages}}
+      <div class="page">
+        <h1>{{head}}</h1>
+        {{#if body}}
+          <p>{{{body}}}</p>
+        {{/if}}
+      </div>
+    {{/each}}
+    {{> form}}
+  </div>
+</template>

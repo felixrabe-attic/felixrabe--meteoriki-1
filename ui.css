@@ -1,0 +1,29 @@
+#ui {
+  background-color: #666;
+  margin: 0;
+  padding: 0 1em;
+  height: 100%;
+  overflow: auto;
+  letter-spacing: 1px;
+}
+
+#ui h1 {
+  margin: 0;
+}
+
+#ui p {
+  font-size: 1em;
+  line-height: 1.6em;
+  margin: 0.5em 0 0;
+}
+
+#ui .page {
+  background-color: #fff;
+  border-radius: 0.3em;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+#ui .page:hover {
+  background-color: #ddf;
+}
