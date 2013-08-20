@@ -6,10 +6,10 @@ if Meteor.isServer
     if Pages.find().count() == 0
       Pages.insert
         head: 'Hello'
-        body: 'This is a <a href="#">Weekee</a> page.'
+        body: 'This is a <a href="#">Meteoriki</a> page.'
       Pages.insert
-        head: 'Weekee'
-        body: 'Weekee is the simplest Wiki <a href="#">software</a> available. It has been developed using the rapid application development framework Meteor.'
+        head: 'Meteoriki'
+        body: 'Meteoriki is the simplest Wiki <a href="#">software</a> available. It has been developed using the rapid application development framework Meteor.'
       Pages.insert
         head: 'Software'
         body: 'Software is ...'
